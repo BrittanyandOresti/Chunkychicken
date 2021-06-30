@@ -1,9 +1,45 @@
 header{
  height: 10vh;
  width: 100vw;
- background-color: red;
+ background-color: #e93f33;
  color: white;
 }
 header h2{
+ font-size: 3em;
  text-align: center;
+}
+.MenuTab{
+ height: 10vh;
+ width: 100vw;
+ background-color: #f9e198;
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+}
+.MenuTab a{
+ text-decoration: none;
+ color: black;
+ font-size: 2em;
+}
+.FirstRow{
+ width: 100vw;
+ height:50vh;
+ display: flex;
+}
+.LogoBox{
+ width: 32vw;
+ height: 50vh;
+ border: red thick dotted;
+}
+#logopic{
+ width: 30vw;
+ height:55vh;
+}
+.AboutMessage {
+ width: 55vw;
+ height: 45vh;
+ margin: 2%;
+ background-image: url("img/IMG_0091.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
 }
