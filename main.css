@@ -1,0 +1,9 @@
+header{
+ height: 10vh;
+ width: 100vw;
+ background-color: red;
+ color: white;
+}
+header h2{
+ text-align: center;
+}
