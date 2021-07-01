@@ -1,12 +1,20 @@
+#logo {
+  width: auto;
+}
+body {
+  background-image: url(../images/board_back.jpg);
+}
 
-.Menu_row-1 {
-    width: 90vw;
-    display: flex;
+#sandwich {
+  width: 20vw;
+  height: 60vh;
 }
-#photo {
-  width: 50vw;
-  height: auto;
-}
+
 .Menu_Items {
+width: 80vw;
+background-color: white;
+}
 
+img {
+  width:  90vw;
 }

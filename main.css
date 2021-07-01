@@ -9,14 +9,16 @@ header h2{
  text-align: center;
 }
 .MenuTab{
+position: fixed;
  height: 10vh;
  width: 100vw;
  background-color: #f9e198;
  list-style: none;
  display: flex;
  justify-content: space-around;
+ padding-top: 1%;
 }
-.MenuTab a{
+.MenuTab a {
  text-decoration: none;
  color: black;
  font-size: 2em;
