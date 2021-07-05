@@ -16,6 +16,9 @@ header h2{
  font-size: 3em;
  text-align: center;
 }
+#logo {
+ width: 8vw;
+}
 
 .MenuTab{
 position: fixed;
