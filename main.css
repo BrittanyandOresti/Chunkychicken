@@ -4,6 +4,11 @@
 @font-face { font-family: SigmarOne-Regular;
        			 src: url('Fonts/SigmarOne-Regular.ttf'); }
 
+
+html{
+ background-image: url("images/background.jpeg");
+ 
+}
 header{
  height: 10vh;
  width: 100vw;
