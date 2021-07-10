@@ -5,22 +5,9 @@
        			 src: url('Fonts/SigmarOne-Regular.ttf'); }
 
 
-html{
- background-image: url("images/background.jpeg");
 
-}
-header{
- height: 10vh;
- width: 100vw;
- background-color: #e93f33;
- color: white;
- font-family: VarelaRound-Regular;
-}
 
-header h2{
- font-size: 3em;
- text-align: center;
-}
+
 #logo {
  width: 8vw;
 }
@@ -42,17 +29,8 @@ position: fixed;
 }
 
 .FirstRow{
-  /* margin-top: 5%;
- width: 100vw;
- height:50vh; */
  display: flex;
  justify-content: space-around;
-}
-.LogoBox{
- margin-top: 5%;
- width: 32vw;
- height: 50vh;
- border: red thick dotted;
 }
 #logopic{
  width: 30vw;
@@ -60,24 +38,46 @@ position: fixed;
 }
 .AboutMessage {
  width: 55vw;
- height: 45vh;
- margin: 2%;
- background-image: url("img/IMG_0091.jpeg");
- background-size: cover;
+ height: 95vh;
+ margin-top: 10vh;
+ background-image: url("images/FrontPicWords.png");
+ background-size: auto;
  background-repeat: no-repeat;
+ background-size: cover;
 }
 
-.driver{
+.SecondRow{
+ /* height: 100vh; */
+ display: flex;
+ justify-content: space-around;
+}
+.Mr.Bean, .FryerPic, .driver{
+ /* width: 100vw;
+ height: 100vh; */
+}
+#fryer, #bean, #ChunkDriver{
+ width: 32vw;
+ height: 65vh;
+ /* margin: 3%; */
+ border-style: double;
+}
+h1, h3{
+ font: 3em;
+ background-color: #f9e198;
+ border-style: double;
+ text-align: center;
+}
+/* .driver{
  display: flex;
  justify-content: space-between;
-}
+} */
 
-#ChunkDriver, #AllStuff{
+/* #ChunkDriver, #AllStuff{
  width: 60vw;
  height: 50vh;
-}
+} */
 
-.chicken_gif {
+/* .chicken_gif {
 	margin-left:  20%;
 	margin-right: 40%;
 	margin-bottom: 3%;
@@ -88,4 +88,4 @@ position: fixed;
 
 .chicken_gif h1 {
 	width: 480px;
-}
+} */
