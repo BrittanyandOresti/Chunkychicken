@@ -13,17 +13,18 @@ body {
 .Menu_Items {
 font-family: VarelaRound-Regular;
 width: 90vw;
-background-color: white;
-padding-left: 3%;
+padding-left: 5%;
+padding-top:  10%;
 
 }
 
-
+p{
+Background-color: #f9e198;
+font-family:  SigmarOne-Regular;
+font-size:  2em;
+padding: 4%;
+}
 
 img {
   width:  90vw;
-}
-
-h1{
-  padding-top: 10%;
 }

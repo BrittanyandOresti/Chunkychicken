@@ -8,11 +8,8 @@
 
 
 
-#logo {
- width: 8vw;
-}
-
 .MenuTab{
+	font-family: SigmarOne-Regular;
 position: fixed;
  height: 10vh;
  width: 100vw;
@@ -59,11 +56,13 @@ position: fixed;
  width: 32vw;
  height: 65vh;
  /* margin: 3%; */
+ background-color: #f9e198;
  border-style: double;
 }
 h1, h3{
  font: 3em;
  background-color: #f9e198;
+ padding: 2em;
  border-style: double;
  text-align: center;
 }
