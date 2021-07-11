@@ -2,7 +2,7 @@
 			 src: url('Fonts/VarelaRound-Regular.ttf'); }
 
 @font-face { font-family: SigmarOne-Regular;
-       			 src: url('Fonts/SigmarOne-Regular.ttf'); }
+       			 src: url('../Fonts/SigmarOne-Regular.ttf'); }
 
 
 
@@ -27,17 +27,59 @@ position: fixed;
  color: black;
  font-size: 2em;
 }
-.firstrow{
- padding-top: 15%;
+.orderNow{
+ /* padding-top: 5%; */
  width: 100%;
  display: flex;
- justify-content: space-between;
+ justify-content: space-around;
+}
+
+@keyframes blinking {
+  50% {
+    border-color: #ffcd5f;
+  }
+}
+
+#order{
+ margin-top: 8%;
+ width: 30vw;
+ height: 5vh;
+ text-align: center;
+ font-size: 2em;
+ padding: 1em;
+ color: white;
+ font-size: 2em;
+ font-family: SigmarOne-Regular;
+ text-decoration: none;
+ background-color: #7f8b59;
+ box-shadow: 0 0 0 5px firebrick;
+  outline: dashed 5px #6bb9a2;
+  border: solid 5px #ce5141;
+}
+@keyframes blink {
+   50% { border-color: #ff0000; width: 10em;}
+}
+
+#order { /*or other element you want*/
+    animation-name: blink ;
+    animation-duration: .5s ;
+    animation-timing-function: step-end ;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate ;
+}
+
+.firstrow{
+ padding-top: 2%;
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
 }
 #Catering{
 width: 60vw;
 
 }
 #CP, #CD{
+ margin-top: 30%;
  width: 15vw;
  height: 25vh;
 }
