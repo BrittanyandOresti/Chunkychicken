@@ -19,6 +19,7 @@ position: fixed;
  display: flex;
  justify-content: space-around;
  padding-top: 1%;
+ font-family:  SigmarOne-Regular;
 }
 .MenuTab a {
  text-decoration: none;
