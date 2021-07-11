@@ -6,8 +6,6 @@
 
 
 
-
-
 #logo {
  width: 8vw;
 }
@@ -41,7 +39,7 @@ position: fixed;
 }
 
 #order{
- margin-top: 8%;
+ margin-top: 15%;
  width: 30vw;
  height: 5vh;
  text-align: center;
