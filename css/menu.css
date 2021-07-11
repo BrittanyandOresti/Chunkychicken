@@ -1,14 +1,8 @@
-#logo {
-  width: auto;
-}
-body {
-  background-image: url(../images/board_back.jpg);
-}
+@font-face { font-family: VarelaRound-Regular;
+			 src: url('Fonts/VarelaRound-Regular.ttf'); }
 
-#sandwich {
-  width: 20vw;
-  height: 60vh;
-}
+@font-face { font-family: SigmarOne-Regular;
+       			 src: url('Fonts/SigmarOne-Regular.ttf'); }
 
 .Menu_Items {
 font-family: VarelaRound-Regular;
@@ -16,7 +10,6 @@ width: 90vw;
 padding-left: 5%;
 padding-top:  10%;
 
-}
 
 p{
 Background-color: #f9e198;
@@ -25,6 +18,6 @@ font-size:  2em;
 padding: 4%;
 }
 
-img {
-  width:  90vw;
+#logo {
+ width: 8vw;
 }
