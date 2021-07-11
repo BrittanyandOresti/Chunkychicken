@@ -1,0 +1,43 @@
+@font-face { font-family: VarelaRound-Regular;
+			 src: url('Fonts/VarelaRound-Regular.ttf'); }
+
+@font-face { font-family: SigmarOne-Regular;
+       			 src: url('Fonts/SigmarOne-Regular.ttf'); }
+
+
+
+
+
+#logo {
+ width: 8vw;
+}
+
+.MenuTab{
+position: fixed;
+ height: 10vh;
+ width: 100vw;
+ background-color: #f9e198;
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ padding-top: 1%;
+}
+.MenuTab a {
+ text-decoration: none;
+ color: black;
+ font-size: 2em;
+}
+.firstrow{
+ padding-top: 15%;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+#Catering{
+width: 60vw;
+
+}
+#CP, #CD{
+ width: 15vw;
+ height: 25vh;
+}
