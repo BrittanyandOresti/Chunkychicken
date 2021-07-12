@@ -8,7 +8,7 @@
 	.MenuTab {
 	 font-family: SigmarOne-Regular;
 	 position: fixed;
-	 height: 20vh;
+	 height: 10vh;
 	 width: 100vw;
 	 background-color: #f9e198;
 	 list-style: none;
@@ -17,10 +17,11 @@
 	 padding-top: 1%;
 	 margin-right: 5vw;
 	}
-	.MenuTab img {
-		margin-top: 10vh;
+	.MenuTab img #ch {
+		margin-top: 5vh;
 	}
 				  }
+
 
 
 .MenuTab{
@@ -56,8 +57,8 @@
 
 .AboutMessage {
  width: 55vw;
- height: 110vh;
- margin-top: 10vh;
+ height: 50vh;
+ margin-top: 5vh;
  background-image: url("images/front.jpeg");
  background-size: center;
  background-repeat: no-repeat;
@@ -71,7 +72,7 @@
  justify-content: space-around;
  display: flex;
  width: 100vw;
- margin-top:  5%;
+ /* margin-top:  5%; */
 }
 
 #fryer {
