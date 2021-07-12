@@ -9,8 +9,8 @@
 
 
 .MenuTab{
-	font-family: SigmarOne-Regular;
-	position: fixed;
+font-family: SigmarOne-Regular;
+ position: fixed;
  height: 10vh;
  width: 100vw;
  background-color: #f9e198;
@@ -19,6 +19,7 @@
  justify-content: space-around;
  padding-top: 1%;
 }
+
 .MenuTab a {
  text-decoration: none;
  color: black;
@@ -26,10 +27,7 @@
  max-width: 100vw;
 
 }
- #logo{
-	 margin: auto;
- }
- 
+
 .FirstRow{
  display: flex;
  justify-content: space-around;
@@ -37,56 +35,47 @@
 
 .AboutMessage {
  width: 55vw;
- height: 95vh;
+ height: 110vh;
  margin-top: 10vh;
- background-image: url("images/FrontPicWords.png");
+ background-image: url("images/front.jpeg");
  background-size: auto;
  background-repeat: no-repeat;
  background-size: cover;
 }
 
-.SecondRow{
- /* height: 100vh; */
- display: flex;
- justify-content: space-around;
-}
-.Mr.Bean, .FryerPic, .driver{
- /* width: 100vw;
- height: 100vh; */
-}
-#fryer, #bean, #ChunkDriver{
- width: 32vw;
- height: 65vh;
- /* margin: 3%; */
- background-color: #f9e198;
- border-style: double;
-}
-h1, h3{
- font: 3em;
- background-color: #f9e198;
- padding: 2em;
- border-style: double;
- text-align: center;
-}
-/* .driver{
- display: flex;
+.FryerPic {
+	font-family: VarelaRound-Regular;
+ background-color: #6bb9a2;
+ margin-left: 5vw;
  justify-content: space-between;
-} */
-
-/* #ChunkDriver, #AllStuff{
- width: 60vw;
- height: 50vh;
-} */
-
-/* .chicken_gif {
-	margin-left:  20%;
-	margin-right: 40%;
-	margin-bottom: 3%;
-  background-color: #e7b3a3;
-	padding: 3%;
-	padding-right: 0%;
+ justify-content: space-around;
+ display: flex;
+ width: 90vw;
+ margin-top:  5%;
 }
 
-.chicken_gif h1 {
-	width: 480px;
-} */
+img{
+	width: 30vw;
+	padding: 5%;
+}
+
+.MrBean {
+	font-family: VarelaRound-Regular;
+  background-color: #ce5141;
+  margin-left: 5vw;
+  justify-content: space-between;
+  justify-content: space-around;
+  display: flex;
+  width: 90vw;
+  margin-top:  5%;
+}
+.driver{
+font-family: VarelaRound-Regular;
+ background-color: #7f8b59;
+ margin-left: 5vw;
+ justify-content: space-between;
+ justify-content: space-around;
+ display: flex;
+ width: 90vw;
+ margin-top:  5%;
+}
