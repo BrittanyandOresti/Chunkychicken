@@ -4,16 +4,36 @@
 @font-face { font-family: SigmarOne-Regular;
        			 src: url('Fonts/SigmarOne-Regular.ttf'); }
 
+@media only screen and (max-width: 800px) {
+	.MenuTab {
+	 font-family: SigmarOne-Regular;
+	 position: fixed;
+	 height: 20vh;
+	 width: 100vw;
+	 background-color: #f9e198;
+	 list-style: none;
+	 display: flex;
+	 justify-content: space-between;
+	 padding-top: 1%;
+	 margin-right: 5vw;
+	}
+	.MenuTab img {
+		margin-top: 10vh;
+	}
+				  }
+
+
 .MenuTab{
  font-family: SigmarOne-Regular;
  position: fixed;
- height: 20vh;
+ height: 10vh;
  width: 100vw;
  background-color: #f9e198;
  list-style: none;
  display: flex;
- justify-content: space-around;
+ justify-content: space-between;
  padding-top: 1%;
+ margin-right: 5vw;
 }
 
 .MenuTab img {
@@ -25,12 +45,9 @@
  color: black;
  font-size: 2em;
  max-width: 100vw;
+ margin-right: 5vw;
+}
 
-}
-#ch {
-	margin-left: 5vw;
-	height; 5vh;
-}
 
 .FirstRow{
  display: flex;
@@ -59,6 +76,7 @@
 
 #fryer {
 	width: 40vw;
+	height: 40vh;
 }
 
 .MrBean {
