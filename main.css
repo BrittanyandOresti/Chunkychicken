@@ -4,20 +4,20 @@
 @font-face { font-family: SigmarOne-Regular;
        			 src: url('Fonts/SigmarOne-Regular.ttf'); }
 
-
-
-
-
 .MenuTab{
 font-family: SigmarOne-Regular;
  position: fixed;
- height: 10vh;
+ height: 20vh;
  width: 100vw;
  background-color: #f9e198;
  list-style: none;
  display: flex;
  justify-content: space-around;
  padding-top: 1%;
+}
+
+.MenuTab img {
+	margin-left: 1vw;
 }
 
 .MenuTab a {
@@ -38,9 +38,9 @@ font-family: SigmarOne-Regular;
  height: 110vh;
  margin-top: 10vh;
  background-image: url("images/front.jpeg");
- background-size: auto;
+ background-size: center;
  background-repeat: no-repeat;
- background-size: cover;
+ background-size: contain;
 }
 
 .FryerPic {
@@ -52,11 +52,6 @@ font-family: SigmarOne-Regular;
  display: flex;
  width: 90vw;
  margin-top:  5%;
-}
-
-img{
-	width: 30vw;
-	padding: 5%;
 }
 
 .MrBean {
