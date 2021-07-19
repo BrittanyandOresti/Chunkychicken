@@ -33,12 +33,12 @@
  list-style: none;
  display: flex;
  justify-content: space-between;
- padding-top: 1%;
- margin-right: 5vw;
+ margin-top: 0;
+ position: fixed;
 }
 
 .MenuTab img {
-	margin-left: 1vw;
+	padding-left: 1vw;
 }
 
 .MenuTab a {
@@ -72,34 +72,36 @@
  justify-content: space-around;
  display: flex;
  width: 100vw;
- /* margin-top:  5%; */
+ font-size: .5em;
 }
 
 #fryer {
-	width: 40vw;
+	/* width: 30vw; */
 	height: 40vh;
 }
 
 .MrBean {
 	font-family: VarelaRound-Regular;
   background-color: #ce5141;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   justify-content: space-between;
   justify-content: space-around;
   display: flex;
   width: 100vw;
   margin-top:  5%;
+	font-size: .5em;
 }
 
 .driver{
 font-family: VarelaRound-Regular;
  background-color: #7f8b59;
- margin-left: 5vw;
+ /* margin-left: 5vw; */
  justify-content: space-between;
  justify-content: space-around;
  display: flex;
- width: 90vw;
+ width:100vw;
  margin-top:  5%;
+ font-size: .5em;
 }
 
 #ChunkDriver {
