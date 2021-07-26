@@ -73,6 +73,7 @@
  display: flex;
  width: 100vw;
  font-size: .5em;
+ padding-top: 15%;
 }
 
 #fryer {
@@ -90,6 +91,7 @@
   width: 100vw;
   margin-top:  5%;
 	font-size: .5em;
+	padding:  3%;
 }
 
 .driver{
@@ -102,6 +104,7 @@ font-family: VarelaRound-Regular;
  width:100vw;
  margin-top:  5%;
  font-size: .5em;
+ padding: 3%;
 }
 
 #ChunkDriver {
